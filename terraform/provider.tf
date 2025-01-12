@@ -1,26 +1,26 @@
 terraform {
-  required_version = "~> 1.5.1"
+  required_version = "~> 1.10.4"
 
   required_providers {
     digitalocean = {
       source  = "digitalocean/digitalocean"
-      version = "~> 2.25.0"
+      version = "~> 2.47.0"
     }
     cloudinit = {
       source  = "hashicorp/cloudinit"
-      version = "2.2.0"
+      version = "2.3.5"
     }
     random = {
       source  = "hashicorp/random"
-      version = "3.4.3"
+      version = "3.6.3"
     }
     jwt = {
       source  = "camptocamp/jwt"
-      version = "1.1.0"
+      version = "1.1.2"
     }
     htpasswd = {
       source  = "loafoe/htpasswd"
-      version = "1.0.4"
+      version = "1.2.1"
     }
     sendgrid = {
       source  = "taharah/sendgrid"
@@ -28,7 +28,7 @@ terraform {
     }
     time = {
       source  = "hashicorp/time"
-      version = "0.9.1"
+      version = "0.12.1"
     }
   }
 }
